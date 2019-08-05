@@ -5,11 +5,14 @@ import Routes from './routes';
 
 import GlobalStyles from './styles/global';
 
+import Header from './components/Header';
+
 function App() {
   return (
     <BrowserRouter>
-      <GlobalStyles />
+      <Header />
       <Routes />
+      <GlobalStyles />
     </BrowserRouter>
   );
 }
