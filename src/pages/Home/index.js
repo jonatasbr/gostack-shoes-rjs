@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { MdAddShoppingCart } from 'react-icons/md';
+
 import api from '../../services/api';
+
 import { formatPrice } from '../../util/format';
 import { ProductList } from './styles';
 
